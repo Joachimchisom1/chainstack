@@ -1,0 +1,90 @@
+.dropdown {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.dropdown1 {
+    /* display: none; */
+    
+ }
+
+ .ArrowDown__icon:hover {
+   color: #2fd7bf;
+ }
+
+
+.dropdown {
+   left: 80%;
+ }
+
+
+.invest-1 .h4 {
+    left: -80%;
+    margin-bottom: 50px;
+  }
+
+  .dropdown input {
+    border-radius: 10px;
+    height: 50px;
+    margin: 4px;
+  }
+
+  .dropdown button {
+    border-radius: 10px;
+    height: 40px;
+    width: 8rem;
+    font-size: 18px;
+    background: #2fd7bf;
+  }
+
+  .dropdown button1:hover {
+    background: #000;
+    color: #2fd7bf;
+    border: 1px solid #2fd7bf;
+  }
+
+
+  
+/* ========= MEDIA QUERRIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10rem ;
+    margin-top: 40px;
+  }
+}
+  
+/* ========= MEDIA QUERRIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10rem ;
+    margin-top: 40px;
+  }
+
+  .dropdown input {
+    border-radius: 10px;
+    height: 50px;
+    margin: 4px;
+    font-size: 10px;
+    margin-left: 2rem ;
+  }
+
+  .dropdown button {
+    border-radius: 10px;
+    height: 40px;
+    width: 8rem;
+    font-size: 18px;
+    background: #2fd7bf;
+    margin-right: 1rem ;
+  }
+  
+}
+
+
